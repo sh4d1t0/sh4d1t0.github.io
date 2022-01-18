@@ -45,7 +45,7 @@
   }
 
   .pre-card-image {
-    @apply md:shrink-0 md:hidden;
+    @apply md:shrink-0 md:hidden text-center;
   }
   .pre-card-image img {
     @apply h-48 w-48 object-cover md:h-full md:w-full rounded-full;

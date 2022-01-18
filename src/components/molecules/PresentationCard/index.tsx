@@ -9,12 +9,11 @@ const PresentationCard: FC = () => {
         <div className="pre-card-image">
           <StaticImage
             src="../../../images/shadito-selfie.jpg"
-            width={400}
+            width={200}
             quality={95}
             formats={['auto', 'webp', 'avif']}
             alt="Shadito Selfie"
             placeholder="blurred"
-            layout="fixed"
           />
         </div>
         <div className="card-content">
@@ -26,20 +25,23 @@ const PresentationCard: FC = () => {
           </p>
           <div className="card-footer">
             <div>
-              <Button variant="primary" label="Contratar" />
-              <Button variant="secondary" label="Obtener CV" />
+              <Button variant="contained" label="Contratar" />
+              <Button
+                variant="contained"
+                color="secondary"
+                label="Obtener CV"
+              />
             </div>
           </div>
         </div>
         <div className="post-card-image">
           <StaticImage
             src="../../../images/shadito-selfie.jpg"
-            width={400}
+            width={300}
             quality={95}
             formats={['auto', 'webp', 'avif']}
             alt="Shadito Selfie"
             placeholder="blurred"
-            layout="fixed"
           />
         </div>
       </div>
